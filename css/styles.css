@@ -115,14 +115,21 @@ line-height: .75;
 }
 .navbar-brand h1 {
   padding-top: 10px;
-  font-size: 5vw;
+  font-size: 5vw;/* 1vw=1% of viewport width*/
 }
 .navbar-brand p {
   text-transform: uppercase;
   font-size: .6em;
   margin-top: 12px;
 }
-.navbar-brand p img {
+.navbar-brand p img {/* Star-K*/
   height: 20px;
+}
+#collapsable-nav a {/*  Collapsed nav menu glyph*/
+  font-size: 1.2em;
+}
+#collapsable-nav a span {
+  font-size: 1em;
+  margin-right: 5px;
 }
 }
