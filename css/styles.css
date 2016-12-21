@@ -86,13 +86,16 @@ line-height: .75;
 }
 /* END HEADER*/
 
+.container .jumbotron {
+  box-shadow: 0 0 50px #9b131d;
+  border: 2px solid #9b131d;
+}
 /********** Large devices only**********/
 @media (min-width: 1200px){
-  .jumbotron {
+.container  .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 657px;
-    box-shadow: 0 0 50px #3F0C1F;
-    border: 2px solid #3F0C1F;
+
 
   }
 }
@@ -109,11 +112,10 @@ line-height: .75;
   /*End Header */
 
   /* Home Page*/
-  .jumbotron {
+.container  .jumbotron {
     background: url('../images/jumbotron_992.jpg') no-repeat;
     height: 558px;
-    box-shadow:  0 0 50px #3F0C1F;
-    border: 2px solid #3F0C1F;
+
   }
   /* End Home Page */
 }
@@ -121,11 +123,9 @@ line-height: .75;
 @media (min-width: 768px) and (max-width: 991px){
 /*
 Home Page*/
-.jumbotron {
+.container .jumbotron {
   background:  url('../images/jumbotron_768.jpg') no-repeat;
   height: 432px;
-  box-shadow: 0 0 50px #3F0C1F;
-  border:  2px solid #3F0C1F;
 }
 }
 /********** Extra small devices only**********/
@@ -172,6 +172,5 @@ Home Page*/
 .container .jumbotron {
   margin-top: 30px;
   padding: 0;
-  box-shadow: 0 0 50px #9b131d;
 }
 }
