@@ -154,4 +154,24 @@ Home Page*/
   font-size: 1em;
   margin-right: 5px;
 }
+#call-btn > a {
+  font-size: 1.1em;
+  display: block;
+  margin:  0 20px;
+  padding: 10px;
+  border: 2px solid #fff;
+/*  border-color: #f6b319;
+  color: #951c49;*/
+}
+#xs-deliver {
+  margin-top: 5px;
+  font-size: .7em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.container .jumbotron {
+  margin-top: 30px;
+  padding: 0;
+  box-shadow: 0 0 50px #9b131d;
+}
 }
